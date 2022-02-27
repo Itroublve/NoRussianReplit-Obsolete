@@ -1,6 +1,5 @@
-#import uptimerobot
 import os
-import webserver
+from external import webserver #,uptimerobot
 webserver.awake(f"https://{os.environ['REPL_SLUG']}.{os.environ['REPL_OWNER']}.repl.co")
 try:
   from selenium import webdriver
@@ -16,6 +15,7 @@ options.add_argument("--disable-extensions")
 options.add_argument('--disable-gpu')
 options.add_argument('--disable-dev-shm-usage')
 options.add_argument("--FontRenderHinting[none]")
+options.add_argument("--headless")
 options.add_argument('--no-sandbox')
 driver = webdriver.Chrome(options=options)
 driver.get(f"https://{os.environ['REPL_SLUG']}.{os.environ['REPL_OWNER']}.repl.co")
