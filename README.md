@@ -1,4 +1,7 @@
-# NoRussian Replit Edition
+# NoRussian Replit Edition -- Obsolete
+### Update
+I figured using Chromedriver just to make requests was very obselete and dumb, therefore this repository is obselete and will be moved.
+
 ### Volunteer DDoS tool via HTML + JS + Python
 Running the HTML locally on your device will create a distributed DDoS attack on Russian websites, through complete volunteering.
 * Initially while that's good and all, I prefer to enhance other services. Such as Replit.com, with it you can easily create unlimited numbers of REPL and initiate a DDoS attack without any worries.
